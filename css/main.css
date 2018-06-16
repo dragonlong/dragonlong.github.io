@@ -39,6 +39,10 @@ h1.left {
   text-align:left;
   margin-left:50px;
 }
+h2.left {
+  text-align:left;
+  margin-left:50px;
+}
 p {
     width:100%;
     margin-left: 50px;
@@ -94,6 +98,10 @@ ul.posts li {
 float: right;
 padding: 0 120px 20px 0;
 margin-right:50px;
+}
+
+.text-left{
+  color:black;
 }
 /* Container holding the image and the text */
 .image_text {
@@ -176,7 +184,7 @@ div.desc {
       color: white; }
     .intro-section .my-info {
       background-color: rgba(0, 0, 0, 0.5);
-      /*background-size: calc(100% - 400px);*/
+      background-size: calc(100% - 0px);
      }
 
 .about-section {
@@ -205,19 +213,21 @@ div.desc {
 
 .paper {
   margin-bottom: 30px;
-  padding: 10px;
+  padding: 0px;
   display: flex;
   align-items: center; }
 
 .project-solo{
+  box-sizing: border-box;
   margin-left:0px;
   width: 100%;
 }
 .project-solo p{
+  text-align: left;
 
 }
 .project-solo h2{
-  background-color: green;
+  background-color: #42f4ee;
 }
 .project-solo img{
   margin-left: 0px;
@@ -282,6 +292,7 @@ padding: 0 20px 20px 0;
 }
 /* Container holding the image and the text */
 .container {
+    width: 100%;
     position: relative;
     text-align: center;
     color: white;
