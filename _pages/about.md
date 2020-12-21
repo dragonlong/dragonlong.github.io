@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Virginia Tech</a>. lxiaol9@vt.edu
+description: <a href="#">lxiaol9@vt.edu</a>. 
 
 profile:
   align: right
@@ -23,6 +23,6 @@ with research focused on deep 3D representations learning for dynamic scene unde
 I gained my bachelor degree in Huazhong University of Science and Technology, leading the team on algorithms development and system
 integration for drone control at the Mechanical Innovational Base(MIB) in [Qiming College](http://qiming.hust.edu.cn).
 
-Over the years, I am lucky to work with [Shuran Song](https://shurans.github.io/) at Columbia University, [Johnny Lee](https://research.google/people/105767/) at Google Brain Robotics, [Siheng Chen](https://users.ece.cmu.edu/~sihengc/) at MERL, [Yunhui Zhu](https://renayuki.wixsite.com/3doptics/people) in 3D Optics Group.   
+During summer 2019, I am lucky to work with [Prof. Shuran Song](https://shurans.github.io/)(now Columbia University), [Dr. Yi Li](https://ericyi.github.io/) (Google Research), and [Johnny Chung Lee](https://research.google/people/105767/)(Google Brain Robotics) as a student ML researcher in Google Brain Robotics, Mountain View; in 2020 spring, I did a research internship on 3D perception in MERL, mentored by [Prof. Siheng Chen](https://users.ece.cmu.edu/~sihengc/)(MERL, now Shanghai Jiaotong University), [Dr. Alan Sullivan](https://www.merl.com/people/sullivan)(MERL); I have also worked with [Prof. Yunhui Zhu](https://renayuki.wixsite.com/3doptics/people)(VT 3D Optics Group) on Phase Imaging.    
 
 
