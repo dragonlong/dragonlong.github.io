@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2020-09-21 15:58:00-0400
+date: 2018-07-07 07:59:00-0400
 inline: true
 ---
 
-Our method ranked 33rd on [SemanticKitti](http://semantic-kitti.org/index.html) Multi-sweep Semantic Segmentation Challenge!
+Start computer vision intern in [Robotmeta](https://www.robotmeta.com/#/home) on 3D perception for robot arm.

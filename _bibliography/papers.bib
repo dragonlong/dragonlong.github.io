@@ -1,16 +1,71 @@
 ---
 ---
+@article{li2021leveraging,
+  title={Leveraging SE (3) Equivariance for Self-Supervised Category-Level Object Pose Estimation},
+  author={Li, Xiaolong and Weng, Yijia and Yi, Li and Guibas, Leonidas and Abbott, A Lynn and Song, Shuran and Wang, He},
+  journal={NeurIPS},
+  year={2021},
+  image={nips21.png},
+  project={https://dragonlong.github.io/equi-pose/},
+  code={https://github.com/dragonlong/equi-pose},
+  arxiv={https://arxiv.org/pdf/2111.00190.pdf},
+  openreview={https://openreview.net/forum?id=wGRNAqVBQT2},
+  abstract={Category-level object pose estimation aims to find 6D object poses of previously unseen object instances from known categories without access to object CAD models. To reduce the huge amount of pose annotations needed for category-level learning, we propose for the first time a self-supervised learning framework to estimate category-level 6D object pose from single 3D point clouds. During training, our method assumes no ground-truth pose annotations, no CAD models, and no multi-view supervision. The key to our method is to disentangle shape and pose through an invariant shape reconstruction module and an equivariant pose estimation module, empowered by SE(3) equivariant point cloud networks. The invariant shape reconstruction module learns to perform aligned reconstructions, yielding a category-level reference frame without using any annotations. In addition,the equivariant pose estimation module achieves category-level pose estimation accuracy that is comparable to some fully supervised methods. Extensive experiments demonstrate the effectiveness of our approach on both complete and partialdepth point clouds from the ModelNet40 benchmark, and on real depth point cloudsfrom the NOCS-REAL 275 dataset.},
+  selected={true}
+}
+
 @article{li2020category,
-  abbr={CVPR 2020},
   title={Category-Level Articulated Object Pose Estimation},
   author={Li, Xiaolong and Wang, He and Yi, Li and Guibas, Leonidas J and Abbott, A Lynn and Song, Shuran},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={3706--3715},
-  year={CVPR 2020 Oral Presentation},
+  journal={CVPR},
+  year={2020},
+  level={Oral Presentation},
+  image={ancsh.png},
+  project={https://articulated-pose.github.io/},
+  code={https://github.com/dragonlong/articulated-pose},
+  arxiv={https://arxiv.org/pdf/1912.11913.pdf},
+  abstract={This paper addresses the task of category-level pose
+      estimation for articulated objects from a single depth image.
+      We present a novel category-level approach that correctly
+      accommodates object instances previously unseen during
+      training. We introduce Articulation-aware Normalized
+      Coordinate Space Hierarchy (ANCSH) – a canonical
+      representation for different articulated objects in a given
+      category. As the key to achieve intra-category general-
+      ization, the representation constructs a canonical object
+      space as well as a set of canonical part spaces. The
+      canonical object space normalizes the object orientation,
+      scales and articulations (e.g. joint parameters and states)
+      while each canonical part space further normalizes its part
+      pose and scale. We develop a deep network based on
+      PointNet++ that predicts ANCSH from a single depth point
+      cloud, including part segmentation, normalized coordi-
+      nates, and joint parameters in the canonical object space.
+      By leveraging the canonicalized joints, we demonstrate: 1)
+      improved performance in part pose and scale estimations
+      using the induced kinematic constraints from joints; 2) high
+      accuracy for joint parameter estimation in camera space},
   selected={true}
 }
 
+@article{porwal2020idrid,
+  title={Idrid: Diabetic retinopathy--segmentation and grading challenge},
+  author={Porwal, Prasanna and Pachade, Samiksha and Kokare, Manesh and Deshmukh, Girish and Son, Jaemin and Bae, Woong and Liu, Lihong and Wang, Jianzong and Liu, Xinhui and Gao, Liangxin and others},
+  journal={Medical image analysis},
+  volume={59},
+  pages={101561},
+  year={2020},
+  publisher={Elsevier},
+  image={isbi.png},
+  paper={https://www.sciencedirect.com/science/article/abs/pii/S1361841519301033},
+  selected={true},
+  blank={true}
+}
+
 @inproceedings{wu2017texture,
+  image={spie17.png},
   title={Texture orientation-resolving imaging with structure illumination},
   author={Wu, Ziling and Li, Xiaolong and Zhu, Yunhui},
   booktitle={Computational Imaging II},
@@ -18,5 +73,19 @@
   pages={102220M},
   year={2017},
   organization={International Society for Optics and Photonics},
-  selected={true}
+  selected={true},
+  blank={true},
+  blankmore={true}
+}
+
+@inproceedings{chen2015research,
+  title={Research on solving Traveling Salesman Problem based on virtual instrument technology and genetic-annealing algorithms},
+  author={Chen, Muhao and Gong, Chen and Li, Xiaolong and Yu, Zongxin},
+  booktitle={2015 Chinese Automation Congress (CAC)},
+  pages={1825--1827},
+  year={2015},
+  organization={IEEE},
+  selected={true},
+  image={cas15.png},
+  blank={true}
 }

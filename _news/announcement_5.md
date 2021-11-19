@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2018-04-06 07:59:00-0400
+date: 2020-09-21 15:58:00-0400
 inline: true
 ---
 
-Ranked 3rd in [ISBI 2018 Auto DR Grading Challenge](https://biomedicalimaging.org/2018/challenges/), Washion D.C.
+Our method ranked 3rd on [SemanticKitti](http://semantic-kitti.org/index.html) Multi-sweep Semantic Segmentation Challenge!

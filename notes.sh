@@ -15,3 +15,11 @@ gem install bundler
 
 bundle install
 bundle exec jekyll serve
+view-source:https://people.csail.mit.edu/liyunzhu
+
+https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
+
+https://www.taniarascia.com/make-a-static-website-with-jekyll/
+https://www.w3schools.com/html/html_examples.asp
+# video play with js
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_av_prop_autoplay

@@ -1,8 +1,38 @@
-Adams:
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Li":
+  - firstname: ["Xiaolong", "E.", "E. P.", "Edwin Plimpton"]
+    url: http://dragonlong.github.io/
 
-Podolsky:
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Wang":
+  - firstname: ["He", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://hughw19.github.io/
 
-Rosen:
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Weng":
+  - firstname: ["Yijia", "N."]
+    url: https://halfsummer11.github.io/
+
+"Yi":
+  - firstname: ["Li", "N."]
+    url: https://cs.stanford.edu/~ericyi/
+
+"Song":
+  - firstname: ["Shuran", "N."]
+    url: https://www.cs.columbia.edu/~shurans/
+
+"Wu":
+  - firstname: ["Ziling", "N."]
+    url: http://optics.mit.edu/ziling-wu-phd
+
+"Zhu":
+  - firstname: ["Yunhui", "N."]
+    url: https://renayuki.wixsite.com/3doptics
+
+"Guibas":
+  - firstname: ["Leonidas", "Leonidas J"]
+    url: https://geometry.stanford.edu/member/guibas/index.html
+
+"Abbott":
+  - firstname: ["A Lynn", "J. S."]
+    url: https://ece.vt.edu/people/profile/abbott
+
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
