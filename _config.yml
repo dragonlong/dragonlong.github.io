@@ -59,7 +59,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 
 blog_name: dragonx's dreamland  # your blog must have a name for it to show up in the nav bar
-blog_description: blog space for xiaolong li, comes later
+blog_description: blog space for xiaolong li, coming very soon
 permalink: /blog/:year/:title/
 
 # Pagination
