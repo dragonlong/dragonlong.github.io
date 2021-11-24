@@ -23,3 +23,4 @@ https://www.taniarascia.com/make-a-static-website-with-jekyll/
 https://www.w3schools.com/html/html_examples.asp
 # video play with js
 https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_av_prop_autoplay
+https://stackoverflow.com/questions/25107514/bootstrap-different-input-size-different-screen-size
