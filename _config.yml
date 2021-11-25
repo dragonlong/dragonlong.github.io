@@ -72,7 +72,6 @@ disqus_shortname: dragonx # put your disqus shortname
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
-
 collections:
   news:
     defaults:
@@ -123,9 +122,8 @@ plugins:
 # -----------------------------------------------------------------------------
 
 scholar:
-
   last_name: Li
-
+  first_name: Xiaolong
   style: apa
   locale: en
 

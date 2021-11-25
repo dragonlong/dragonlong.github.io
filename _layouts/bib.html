@@ -18,7 +18,6 @@
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
-      <div class="title">{{entry.title}}</div>
       <div class="author">
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
@@ -39,14 +38,14 @@
 
           {% if forloop.length == 1 %}
             {% if author_is_self %}
-              <em>{{author.last}}, {{author.first}}</em>
+              <b><font color="darkblue">{{author.last}}, {{author.first}}</font></b>
             {% else %}
               {{author.last}}, {{author.first}}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
               {% if author_is_self %}
-                <em>{{author.last}}, {{author.first}}</em>,
+                <b><font color="darkblue">{{author.last}}, {{author.first}}</font></b>,
               {% else %}
                 {% if coauthor_url %}
                   <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,
@@ -56,7 +55,7 @@
               {% endif %}
             {% else %}
               {% if author_is_self %}
-                and <em>{{author.last}}, {{author.first}}</em>
+                and <b>{{author.last}}, {{author.first}}</b>
               {% else %}
                 {% if coauthor_url %}
                   and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
@@ -67,76 +66,82 @@
             {% endunless %}
           {% endif %}
         {% endfor %}
+      <div class="title">{{entry.title}}</div>
       </div>
 
       <div class="periodical">
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
+        <b><font color="darkblue">{{entry.journal}}</font></b>
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        <b><font color="darkblue">In {{entry.booktitle}}</font></b>
       {% endif %}
       {% if entry.month %}
         {{entry.month | capitalize}}
       {% endif %}
       {% if entry.year %}
-        {{entry.year}}
-      {% endif %}
-      {% if entry.level %}
-        {{entry.level}}
+        <b><font color="darkblue">{{entry.year}}</font></b>
       {% endif %}
       </div>
     {% endif %}
 
+    <div>
+    {% if entry.level %}
+      <b><font color="firebrick">{{entry.level}}</font></b>
+    {% endif %}
+    </div>
+
     <div class="links">
+    {% if entry.project %}
+      <a href="{{ entry.project }}" class="btn btn-sm z-depth-0" role="button">[project]</a>
+    {% endif %}
+    {% if entry.paper %}
+      <a href="{{ entry.paper }}" class="btn btn-sm z-depth-0" role="button">[Paper]</a>
+    {% endif %}
+    {% if entry.code %}
+      <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">[Code]</a>
+    {% endif %}
     {% if entry.abstract %}
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      <a class="abstract btn btn-sm z-depth-0" role="button">[Abstract]</a>
     {% endif %}
     {% if entry.arxiv %}
-      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">[arXiv]</a>
     {% endif %}
     {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     {% endif %}
-    {% if entry.paper %}
-      <a href="{{ entry.paper }}" class="btn btn-sm z-depth-0" role="button">paper</a>
-    {% endif %}
+
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}
-      <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+      <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">[PDF]</a>
       {% else %}
       <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
       {% endif %}
     {% endif %}
     {% if entry.supp %}
       {% if entry.supp contains '://' %}
-      <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
+      <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">[Supp]</a>
       {% else %}
       <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
       {% endif %}
     {% endif %}
     {% if entry.blog %}
-      <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
-    {% endif %}
-    {% if entry.code %}
-      <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+      <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">[Blog]</a>
     {% endif %}
     {% if entry.poster %}
       {% if entry.poster contains '://' %}
-      <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+      <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">[Poster]</a>
       {% else %}
       <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
       {% endif %}
     {% endif %}
     {% if entry.slides %}
       {% if entry.slides contains '://' %}
-      <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+      <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">[Slides]</a>
       {% else %}
       <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
       {% endif %}
     {% endif %}
-    {% if entry.project %}
-      <a href="{{ entry.project }}" class="btn btn-sm z-depth-0" role="button">project</a>
-    {% endif %}
+
     {% if entry.blank %}
       <br>
       <br>

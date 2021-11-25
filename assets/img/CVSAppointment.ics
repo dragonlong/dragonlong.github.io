@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART:20211202T150000
+DTEND:20211202T151500
+SUMMARY:CVS Pharmacy Appointment
+DESCRIPTION:Next steps: Please check in at the pharmacy area inside the store when you arrive. Bring your ID and insurance card, voucher or other coverage. Don't forget a face covering. Wearing it throughout your visit is required. What to do if you're feeling sick or experiencing COVID-19 symptoms: Don't go to the pharmacy. Contact your primary care provider for next steps. CVS tips for vaccine shots: Did you know wearing short sleeves makes getting a shot easier and faster? If you must wear long sleeves, dress in layers with the short sleeves underneath. Review your patient fact sheet for up-to-date, vaccine-specific information about side effects, risks and more.
+LOCATION:
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+TZID:America/Los_Angeles
+END:VCALENDAR

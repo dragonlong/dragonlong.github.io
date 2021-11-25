@@ -24,3 +24,11 @@ https://www.w3schools.com/html/html_examples.asp
 # video play with js
 https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_av_prop_autoplay
 https://stackoverflow.com/questions/25107514/bootstrap-different-input-size-different-screen-size
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Alignment
+
+# images and css
+https://getbootstrap.com/docs/4.0/layout/grid/ # check the sizes
+https://knowledgebase.proprofs.com/css#default
+https://www.w3schools.com/css/css_image_gallery.asp
+https://www.w3schools.com/css/css3_images.asp # all effects on images

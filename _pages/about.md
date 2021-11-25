@@ -14,7 +14,10 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+education: true
+industry: true # experience all
+service: true
+social: false # includes social icons at the bottom of the page
 ---
 
 I am a Ph.D. student in computer engineering at [Virginia Tech](https://vt.edu/), advised by [Prof. A. Lynn Abbott](https://ece.vt.edu/people/profile/abbott),

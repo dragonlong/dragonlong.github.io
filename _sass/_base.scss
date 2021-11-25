@@ -8,7 +8,7 @@ a, table.table a {
   color: var(--global-theme-color);
   &:hover {
     color: var(--global-theme-color);
-    text-decoration: underline;
+    text-decoration: none;
   }
   &:hover:after {
     width: 100%;
@@ -279,6 +279,23 @@ footer.sticky-bottom {
   }
 }
 
+.flex-container {
+    flex-flow: row;
+    justify-content: space-between;
+    // align-items: flex-start; /* should align items to the top of your flex row if they don't reach 100px in height */
+    vertical-align: middle;
+}
+.inner-image {
+    max-height: 100px;
+}
+.inner-image.portrait {
+    height: 200px;
+    width: 100px;
+}
+.inner-image.landscape {
+    height: 100px;
+    width: 200px;
+}
 
 // Publications
 
@@ -350,12 +367,16 @@ footer.sticky-bottom {
       }
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
+          // color: var(--global-text-color);
+          // border: 1px solid var(--global-text-color);
+          color: $blue-color;
+          border: none;
+          font-size: 0.8rem;
+          padding-left: 0rem;
+          padding-right: 0.3rem;
+          padding-top: 0.0rem;
           padding-bottom: 0.25rem;
+          text-decoration: none;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
@@ -399,6 +420,14 @@ footer.sticky-bottom {
       }
     }
   }
+}
+
+// Industry
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
 
 // Rouge Color Customization

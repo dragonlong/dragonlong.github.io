@@ -33,8 +33,20 @@ layout: default
       {% include news.html %}
     {% endif %}
 
+    {% if page.education %}
+      {% include education.html %}
+    {% endif %}
+
+    {% if page.industry %}
+      {% include industry.html %}
+    {% endif %}
+    
     {% if page.selected_papers %}
       {% include selected_papers.html %}
+    {% endif %}
+
+    {% if page.service %}
+      {% include service.html %}
     {% endif %}
 
     {% if page.social %}
