@@ -20,8 +20,7 @@ service: true
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in computer engineering at [Virginia Tech](https://vt.edu/), advised by [Prof. A. Lynn Abbott](https://ece.vt.edu/people/profile/abbott),
-with research focused on deep 3D representations learning for dynamic scene understanding. I'm interested in AR/VR, Embodied AI, robotics.
+I am an Applied Scientist in Amazon, working on **foundational 3D vision** and **video generation**. I obtained Ph.D. student in computer engineering at [Virginia Tech](https://vt.edu/), advised by [Prof. A. Lynn Abbott](https://ece.vt.edu/people/profile/abbott), with research focused on deep 3D representations learning for dynamic scene understanding. I'm interested in AR/VR, Embodied AI, robotics.
 
 I gained my bachelor degree in [Huazhong University of Science and Technology](http://english.hust.edu.cn/), leading the team on algorithms development and system
 integration for drone control at the Mechanical Innovational Base(MIB) in [Qiming College](http://qiming.hust.edu.cn).
